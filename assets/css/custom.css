@@ -1,0 +1,37 @@
+/* ----------------------------------------------------------------
+	Custom CSS
+
+	Add all your Custom Styled CSS here for New Styles or
+	Overwriting Default Theme Styles for Better Hanlding Updates
+-----------------------------------------------------------------*/
+
+.client-list{
+  padding-left:200px;
+}
+
+.center {
+  text-align: center !important;
+}
+
+.small-padding{
+  padding-top:20px !important;
+}
+
+@media screen and (max-width: 480px) {
+  .logo-img{
+    display: none !important;
+  }
+  .center-mobile{
+    text-align: center;
+  }
+  .client-list{
+    padding: 0px !important;
+  }
+
+  .submit-button-container{
+    margin: 0px !important;
+  }
+}
+
+
+
